@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Supermercado
+﻿namespace Supermercado
 {
-    internal class ComposedProduct
+    public class ComposedProduct : Product
     {
+        public float Discount { get; set; }
+        public Product Products { get; set; }
+        public override decimal ValueToPay()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

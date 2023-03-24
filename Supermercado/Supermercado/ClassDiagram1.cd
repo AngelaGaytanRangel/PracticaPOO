@@ -14,5 +14,12 @@
       <FileName>FixedPriceProduct.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Supermercado.VariablePriceProduct">
+    <Position X="5.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAAQgAAAAAA=</HashCode>
+      <FileName>VariablePriceProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
