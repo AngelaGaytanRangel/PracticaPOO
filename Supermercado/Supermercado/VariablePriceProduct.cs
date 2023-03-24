@@ -18,7 +18,7 @@ namespace Supermercado
         public override string ToString()
         {
             return base.ToString() + $"\n\tMeasurement: {Measurement}" +
-                $"\n\tQuantity...:{$"{Quantity:N2}",15}";
+                $"\n\tQuantity....:{$"{Quantity:N2}",15}";
         }
     }
 }
